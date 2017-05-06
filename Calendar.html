@@ -1,0 +1,241 @@
+---
+layout: default
+---
+      <style>
+      #eventsCalendar {
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 800px;
+      }
+
+      #eventsCalendar a {
+        color: #666;
+        text-decoration: none;
+      }
+
+      #eventsCalendar .other-month {
+        background: #D2D9B3;
+        opacity: 0.3;
+      }
+
+      #eventsCalendar ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      #eventsCalendar li {
+        display: block;
+        float: left;
+        width: 14.4%;
+        padding: 5px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        margin-right: -1px;
+        margin-bottom: -1px;
+      }
+
+      #eventsCalendar ul.weekdays {
+        height: 40px;
+        background: #736E5F;
+      }
+
+      #eventsCalendar ul.weekdays li {
+        text-align: center;
+        text-transform: uppercase;
+        line-height: 20px;
+        border: none; !important;
+        padding: 10px 6px;
+        color: #fff;
+        font-size: 13px;
+      }
+
+      #eventsCalendar .days li{
+        height: 98px;
+      }
+
+      #eventsCalendar .days li:hover {
+        background: #D2D9B3;
+      }
+
+/*    #eventsCalendar .event {
+        clear: both;
+        display: block;
+        font-size: 1em;
+        border-radius: 3px;
+        padding: 5px;
+        margin-top: 6px;
+        color: #666;
+        line-height: 14px;
+        background: #E4F2F2;
+        border: 1px solid #B5DBD0;
+        color: #009AAF;
+        text-decoration: none;
+      }
+
+      #eventsCalendar .event-desc {
+        color: #666;
+        margin: 3px 0 6px 0;
+        text-decoration: none;
+      }
+*/
+      .Month {
+        font-size: 1.6em;
+        padding-top: 20px;
+        text-indent: 30px;
+        color: #757560;
+      }
+      </style>
+
+            <main role="main">
+              <article>
+                <h2 class="sideCalendar"> Calendar </h2>
+                  <div id="calendar-wrap">
+                  <div class="content">
+                    <header>
+                      <h1 class="Month">May 2017</h1>
+                    </header>
+                    <div id="eventsCalendar">
+                      <ul class="weekdays">
+                        <li>Sunday</li>
+                        <li>Monday</li>
+                        <li>Tuesday</li>
+                        <li>Wednesday</li>
+                        <li>Thursday</li>
+                        <li>Friday</li>
+                        <li>Saturday</li>
+                      </ul>
+
+                      <ul class="days">
+                        <li class="other-month">
+                          <div class="date">30</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">1</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">2</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">3</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">4</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">5</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">6</div>
+                        </li>
+                      </ul>
+
+                      <ul class="days">
+                        <li class="day">
+                          <div class="date">7</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">8</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">9</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">10</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">11</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">12</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">13</div>
+                        </li>
+                      </ul>
+
+                      <ul class="days">
+                        <li class="day">
+                          <div class="date">14</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">15</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">16</div>
+                            <div class="event">
+                          <!--    <div class="event-desc">
+
+                              </div>
+                              <div class="event-time">
+
+                              </div>
+                            </div> -->
+                        </li>
+                        <li class="day">
+                          <div class="date">17</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">18</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">19</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">20</div>
+                        </li>
+                      </ul>
+
+                      <ul class="days">
+                        <li class="day">
+                          <div class="date">21</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">22</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">23</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">24</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">25</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">26</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">27</div>
+                        </li>
+                      </ul>
+
+                      <ul class="days">
+                        <li class="day">
+                          <div class="date">28</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">29</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">30</div>
+                        </li>
+                        <li class="day">
+                          <div class="date">31</div>
+                        </li>
+                        <li class="other-month">
+                          <div class="date">1</div>
+                        </li>
+                        <li class="other-month">
+                          <div class="date">2</div>
+                        </li>
+                        <li class="other-month">
+                          <div class="date">3</div>
+                        </li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  </div>
+            <article>
+            </main>

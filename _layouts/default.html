@@ -1,0 +1,43 @@
+---
+title: {{site.title}}
+---
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% if page.title %}{{page.title}}{% else %}{{site.title}}{% endif %}</title>
+        <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+        <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
+        <link href="{{site.baseurl}}/css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+          <header>
+            <h1 id="banner">
+              <div id="Icon">
+                  <ul>
+                      <li><a href="{{site.baseurl}}/Calendar.html"><img src="{{site.baseurl}}/icons/calendar.png"></a></li>
+                      <li><a href="{{site.baseurl}}/Alec&apos;s Sounds.html"><img src="{{site.baseurl}}/icons/home.png"></a></li>
+                  </ul>
+              <div>
+            </h1>
+            <nav id="mainNav">
+              <ul>
+                <li id="about"><a href="{{site.baseurl}}/Alec.html" title="About Alec"> Alec </a></li>
+                <li id="sounds"><a href="{{site.baseurl}}/Alec&apos;s Sounds.html" title="Alec&apos;s originals and covers"> Alec's Sounds </a></li>
+                <li id="perform"><a href="{{site.baseurl}}/Alec&apos;s Performance.html" title="Alec&apos;s Performance on stage"> Alec's Performance </a></li>
+                <li id="calendar"><a href="{{site.baseurl}}/Calendar.html" title="Alec&apos;s calendar of events"> Calendar </a></li>
+                <li id="contact"><a href="{{site.baseurl}}/Contact.html" title="Alec&apos;s contact page"> Contact </a></li>
+              </ul>
+            </nav>
+          </header>
+            <div id="block1">
+            </div>
+          {{content}}
+            <div id="block2">
+            </div>
+          <footer id="footer">
+              <p>&copy; 2016 Alec Kwon </p>
+          </footer>
+    <script src="myscript.js"></script>
+    </body>
+</html>

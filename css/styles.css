@@ -1,0 +1,365 @@
+/* Reset Section */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/* HTML & BODY Section */
+
+html {
+}
+
+body {
+  background: url("../images/background.png") no-repeat center;
+  background-color: #F0F1DF;
+  width: 1090px;
+  margin: 0 auto;
+  font-family: Georgia;
+  font-size: 1em;
+}
+
+
+
+/* Icon Section for Banner*/
+
+#Icon {
+  padding-left: 880px;
+}
+
+#Icon li{
+  list-style-type: none;
+  padding-left: 15px;
+  padding-top: 30px;
+  float: left;
+}
+
+#Icon img {
+  height: 50px;
+}
+
+#Icon img:hover {
+  transform: scale(1.05);
+}
+
+
+/* Banner & Nav Section */
+
+#banner {
+  width: 1040px;
+  height: 461px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: url("../images/banner.png") no-repeat center;
+}
+
+#banner h1 {
+  text-indent: -9999px;
+}
+
+#mainNav ul {
+  list-style-type: none;
+  width: 1040px;
+  margin: 0px auto;
+}
+
+#mainNav li {
+  font-size: 1.6em;
+  float: left;
+  text-align: center;
+}
+
+#about {
+  width: 183px;
+  height: 105px;
+  background: url("../images/nav_alec.png") no-repeat;
+  text-indent: -9999px;
+}
+#sounds {
+  width: 248px;
+  height: 105px;
+  background: url("../images/nav_sounds.png") no-repeat;
+  text-indent: -9999px;
+}
+/* #sketch {
+  width: 253px;
+  height: 105px;
+  background: url("../images/nav_sketch.png") no-repeat;
+  text-indent: -9999px;
+} */
+
+#perform {
+  width: 253px;
+  height: 105px;
+  background: url("../images/nav_perform.png") no-repeat;
+  text-indent: -9999px;
+}
+
+#calendar {
+  width: 178px;
+  height: 105px;
+  background: url("../images/nav_calendar.png") no-repeat;
+  text-indent: -9999px;
+}
+#contact {
+  width: 178px;
+  height: 105px;
+  background: url("../images/nav_contact.png") no-repeat;
+  text-indent: -9999px;
+}
+
+#mainNav li a {
+  text-decoration: none;
+  display: block;
+  height: 105px;
+}
+
+#block1 {
+  margin: 0 auto;
+  width: 1040px;
+  height: 63px;
+  background: url("../images/block1.png") no-repeat;
+  clear: left;
+}
+
+#block2 {
+  margin: 0 auto;
+  width: 1040px;
+  height: 107px;
+  background: url("../images/block2.png") no-repeat;
+  clear: left;
+}
+
+/* Main Sidebar Section */
+
+.sideMain {
+  margin-left: 25px;
+  width: 1040px;
+  height: 594px;
+  background: url("../images/sidebar_main.png") no-repeat;
+}
+
+.sideMain h2 {
+  text-indent: -9999px;
+}
+
+.sideAlec {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_alec.png") no-repeat;
+  text-indent: -9999px;
+}
+
+.sideSounds {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_sounds.png") no-repeat;
+  text-indent: 40px;
+  line-height: 170px;
+}
+
+.soundsh2 {
+  text-indent: -9999px;
+}
+
+/* .sideSketch {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_sketch.png") no-repeat;
+  text-indent: -9999px;
+} */
+
+.sidePerform {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_perform.png") no-repeat;
+  text-indent: -9999px;
+}
+
+.sideCalendar {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_calendar.png") no-repeat;
+  text-indent: -9999px;
+}
+
+.sideContact {
+  float: left;
+  margin-left: 25px;
+  width: 185px;
+  height: 594px;
+  background: url("../images/sidebar_contact.png") no-repeat;
+  text-indent: -9999px;
+}
+
+
+
+/* Sounds Nav Section */
+
+#soundsNav ul {
+  list-style-type: none;
+  width: 165px;
+  margin-left: 15px;
+  text-indent: -9999px;
+}
+
+#soundsNav a {
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+#originals {
+  background: url("../images/sounds_originals.png") no-repeat center;
+}
+
+#covers {
+  background: url("../images/sounds_covers.png") no-repeat center;
+}
+
+#collabo {
+  background: url("../images/sounds_collabo.png") no-repeat center;
+}
+
+/*
+#onStage {
+  background: url("../images/sounds_onstage.png") no-repeat center;
+}*/
+
+#soundsNav li:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+/* Content Section - Main, Sketchbook, Calendar, Contact */
+
+/*
+
+.recentContent {
+  margin-left: 180px;
+  width: 860px;
+  height: 326px;
+  background: url("../images/content_recent.png") no-repeat;
+}
+
+.noticeContent {
+  margin-left: 180px;
+  margin-top: 11px;
+  width: 860px;
+  height: 257px;
+  background: url("../images/content_notice.png") no-repeat;
+}
+
+.sideMain p {
+  font-size: 1.4em;
+  text-indent: 50px;
+  margin-top: 20px;
+  color: #757560;
+}
+*/
+
+.content {
+  margin-left: 210px;
+  width: 855px;
+  height: 594px;
+  background: url("../images/content.png") no-repeat;
+  overflow-y: auto;
+}
+
+.content2 {
+  margin-left: 210px;
+  width: 855px;
+  height: 594px;
+  background: url("../images/content_2.png") no-repeat;
+  overflow-y: auto;
+}
+
+/* Sounds Content Section */
+
+
+.soundsContent {
+  font-size: 1.4em;
+  padding-top: 35px;
+  padding-left: 30px;
+  text-indent: 30px;
+  color: #757560;
+}
+
+.audio1 {
+  font-size: 1.4em;
+  padding-top: 60px;
+  padding-left: 30px;
+  text-indent: 30px;
+}
+/* audio1 was made to make space on the top of the content page */
+
+.audio {
+  font-size: 1.4em;
+  padding-top: 40px;
+  padding-left: 30px;
+  text-indent: 30px;
+}
+
+/*
+.soundsContent p {
+  text-indent: 120px;
+  margin-top: 40px;
+  font-style: oblique;
+  font-weight: 550;
+}
+
+audio {
+  margin: 50px 0 20px 100px;
+  width: 70%;
+  height: 10%;
+  background-color: #757560;
+}
+
+
+/* Perform Content Section */
+
+.pfrmContent {
+  font-size: 1.4em;
+  padding-top: 35px;
+  padding-left: 30px;
+  text-indent: 30px;
+  color: #757560;
+
+
+
+/* Contact Section */
+
+#contact_form {
+  padding-left: 150px;
+  padding-top: 50px;
+  line-height: 50px;
+}
+
+
+
+/* Footer Section */
+
+#footer {
+  background: url("../images/footer.png") no-repeat;
+  margin: 0 auto;
+  width: 1040px;
+  height: 42px;
+  text-align: center;
+  text-indent: -9999px;
+}
