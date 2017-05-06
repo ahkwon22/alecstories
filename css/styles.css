@@ -116,6 +116,9 @@ body {
   height: 105px;
 }
 
+
+/* Blocks and Footer section */
+
 #block1 {
   margin: 0 auto;
   width: 1040px;
@@ -131,6 +134,16 @@ body {
   background: url("../images/block2.png") no-repeat;
   clear: left;
 }
+
+#footer {
+  background: url("../images/footer.png") no-repeat;
+  margin: 0 auto;
+  width: 1040px;
+  height: 42px;
+  text-align: center;
+  text-indent: -9999px;
+}
+
 
 /* Main Sidebar Section */
 
@@ -343,23 +356,10 @@ audio {
 
 
 
-/* Contact Section */
+/* Contact Section*/
 
 #contact_form {
   padding-left: 150px;
   padding-top: 50px;
   line-height: 50px;
-}
-
-
-
-/* Footer Section */
-
-#footer {
-  background: url("../images/footer.png") no-repeat;
-  margin: 0 auto;
-  width: 1040px;
-  height: 42px;
-  text-align: center;
-  text-indent: -9999px;
 }
